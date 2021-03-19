@@ -13,7 +13,7 @@ spec:
       labels:
         app: guestbook-ui
     spec:
-      serviceAccountName: default
+      serviceAccountName: deployer
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         name: guestbook-ui
